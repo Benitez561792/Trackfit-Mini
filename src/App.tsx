@@ -1,5 +1,5 @@
-
 import Welcome from "./Components/Welcome"
+import { Exerciselist } from "./Components/exerciselist"
 import { MotivationalMessage } from "./Component/MotivationalMessage"
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
      <div >
       <Welcome />
     </div>
-
+      < Exerciselist />
     <MotivationalMessage 
     message='O corpo alcança o que a mente acredita!'
     author="Pietro Abrahamian"
@@ -21,10 +21,14 @@ function App() {
     message='O sucesso é a soma de pequenos esforços repetidos dia após dia.'
     author="Robert Collier"
     />
+     
 
     </>
+
   )
 }
+
+
 
 export default App
 
